@@ -12,17 +12,17 @@ from tglogging import TelegramLogHandler
 
 # Config 
 class Config(object):
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6811698944:AAFKsLnMKz1nDIsEfOpqzwGNnNWtE6Xmht4")
-    API_ID = int(os.environ.get("API_ID",  12606917))
-    API_HASH = os.environ.get("API_HASH", "f25113b8c17dca6fa7abda53a86bd4f7")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7388897263:AAHoIBnDg1tU0wAcgx2kxjy5iKFRGWm9YgM")
+    API_ID = int(os.environ.get("API_ID",  13794728))
+    API_HASH = os.environ.get("API_HASH", "25c1a5b45b981d601832905e220e16c7")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     SESSIONS = "./SESSIONS"
 
-    AUTH_USERS = os.environ.get('AUTH_USERS', '5318243282').split(',')
+    AUTH_USERS = os.environ.get('AUTH_USERS', '7134052961').split(',')
     for i in range(len(AUTH_USERS)):
         AUTH_USERS[i] = int(AUTH_USERS[i])
 
-    GROUPS = os.environ.get('GROUPS', '-1001699711548').split(',')
+    GROUPS = os.environ.get('GROUPS', '-1002246964527').split(',')
     for i in range(len(GROUPS)):
         GROUPS[i] = int(GROUPS[i])
 
